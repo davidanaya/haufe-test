@@ -32,6 +32,9 @@ const routes: Routes = [
     HttpModule,
     RouterModule.forChild(routes)
   ],
+  exports: [
+    TodoDashboardComponent
+  ],
   providers: [
     TodoDashboardService
   ]
